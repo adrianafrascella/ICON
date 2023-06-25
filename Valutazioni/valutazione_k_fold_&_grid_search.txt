@@ -1,0 +1,190 @@
+Valori medi ottenuti tramite kfold:
+
+KNN
+Parameters: {'n_neighbors': 3}
+Average Accuracy Score: 0.9316, Average Precision Score: 0.9628, Average Recall Score: 0.8485, F2 Score: 0.8691.
+KNN
+Parameters: {'n_neighbors': 4}
+Average Accuracy Score: 0.9229, Average Precision Score: 0.9819, Average Recall Score: 0.8073, F2 Score: 0.8371.
+KNN
+Parameters: {'n_neighbors': 5}
+Average Accuracy Score: 0.9252, Average Precision Score: 0.9666, Average Recall Score: 0.8271, F2 Score: 0.8517.
+KNN
+Parameters: {'n_neighbors': 6}
+Average Accuracy Score: 0.9177, Average Precision Score: 0.9795, Average Recall Score: 0.7951, F2 Score: 0.8262.
+KNN
+Parameters: {'n_neighbors': 7}
+Average Accuracy Score: 0.9200, Average Precision Score: 0.9693, Average Recall Score: 0.8101, F2 Score: 0.8376.
+KNN
+Parameters: {'n_neighbors': 8}
+Average Accuracy Score: 0.9125, Average Precision Score: 0.9782, Average Recall Score: 0.7818, F2 Score: 0.8145.
+KNN
+Parameters: {'n_neighbors': 9}
+Average Accuracy Score: 0.9151, Average Precision Score: 0.9701, Average Recall Score: 0.7959, F2 Score: 0.8255.
+KNN
+Parameters: {'n_neighbors': 10}
+Average Accuracy Score: 0.9092, Average Precision Score: 0.9766, Average Recall Score: 0.7741, F2 Score: 0.8076.
+KNNbest parameters: {'n_neighbors': 3}
+Average Accuracy Score: 0.9316, Average Precision Score: 0.9628, Average Recall Score: 0.8485, F2 Score: 0.8691.
+
+
+Decision Tree
+Parameters: {'max_depth': 3}
+Average Accuracy Score: 0.7500, Average Precision Score: 0.9969, Average Recall Score: 0.3277, F2 Score: 0.3785.
+Decision Tree
+Parameters: {'max_depth': 4}
+Average Accuracy Score: 0.7672, Average Precision Score: 0.9913, Average Recall Score: 0.3761, F2 Score: 0.4294.
+Decision Tree
+Parameters: {'max_depth': 5}
+Average Accuracy Score: 0.7674, Average Precision Score: 0.9453, Average Recall Score: 0.4118, F2 Score: 0.4606.
+Decision Tree
+Parameters: {'max_depth': 6}
+Average Accuracy Score: 0.7818, Average Precision Score: 0.7675, Average Recall Score: 0.6208, F2 Score: 0.6416.
+Decision Tree
+Parameters: {'max_depth': 7}
+Average Accuracy Score: 0.7957, Average Precision Score: 0.8695, Average Recall Score: 0.5366, F2 Score: 0.5797.
+Decision Tree
+Parameters: {'max_depth': 8}
+Average Accuracy Score: 0.8133, Average Precision Score: 0.9162, Average Recall Score: 0.5536, F2 Score: 0.5998.
+Decision Tree
+Parameters: {'max_depth': 9}
+Average Accuracy Score: 0.8242, Average Precision Score: 0.8462, Average Recall Score: 0.6447, F2 Score: 0.6767.
+Decision Tree
+Parameters: {'max_depth': 10}
+Average Accuracy Score: 0.8415, Average Precision Score: 0.8956, Average Recall Score: 0.6503, F2 Score: 0.6876.
+Decision Treebest parameters: {'max_depth': 10}
+Average Accuracy Score: 0.8415, Average Precision Score: 0.8956, Average Recall Score: 0.6503, F2 Score: 0.6876.
+
+
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 50}
+Average Accuracy Score: 0.7770, Average Precision Score: 0.9955, Average Recall Score: 0.4012, F2 Score: 0.4555.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 100}
+Average Accuracy Score: 0.7785, Average Precision Score: 0.9961, Average Recall Score: 0.4051, F2 Score: 0.4596.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 150}
+Average Accuracy Score: 0.7773, Average Precision Score: 0.9964, Average Recall Score: 0.4017, F2 Score: 0.4561.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 200}
+Average Accuracy Score: 0.7784, Average Precision Score: 0.9961, Average Recall Score: 0.4047, F2 Score: 0.4592.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 50}
+Average Accuracy Score: 0.8466, Average Precision Score: 0.9805, Average Recall Score: 0.5989, F2 Score: 0.6494.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 100}
+Average Accuracy Score: 0.8462, Average Precision Score: 0.9848, Average Recall Score: 0.5950, F2 Score: 0.6461.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 150}
+Average Accuracy Score: 0.8470, Average Precision Score: 0.9854, Average Recall Score: 0.5967, F2 Score: 0.6478.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 200}
+Average Accuracy Score: 0.8485, Average Precision Score: 0.9840, Average Recall Score: 0.6018, F2 Score: 0.6524.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 50}
+Average Accuracy Score: 0.8934, Average Precision Score: 0.9735, Average Recall Score: 0.7329, F2 Score: 0.7710.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 100}
+Average Accuracy Score: 0.8944, Average Precision Score: 0.9762, Average Recall Score: 0.7335, F2 Score: 0.7719.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 150}
+Average Accuracy Score: 0.8940, Average Precision Score: 0.9759, Average Recall Score: 0.7326, F2 Score: 0.7711.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 200}
+Average Accuracy Score: 0.8942, Average Precision Score: 0.9752, Average Recall Score: 0.7338, F2 Score: 0.7720.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 50}
+Average Accuracy Score: 0.9266, Average Precision Score: 0.9811, Average Recall Score: 0.8180, F2 Score: 0.8461.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 100}
+Average Accuracy Score: 0.9274, Average Precision Score: 0.9818, Average Recall Score: 0.8196, F2 Score: 0.8476.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 150}
+Average Accuracy Score: 0.9277, Average Precision Score: 0.9821, Average Recall Score: 0.8201, F2 Score: 0.8481.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 200}
+Average Accuracy Score: 0.9275, Average Precision Score: 0.9819, Average Recall Score: 0.8199, F2 Score: 0.8479.
+Random Forestbest parameters: {'max_depth': 20, 'n_estimators': 150}
+Average Accuracy Score: 0.9277, Average Precision Score: 0.9821, Average Recall Score: 0.8201, F2 Score: 0.8481.
+
+
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 50}
+Average Accuracy Score: 0.9568, Average Precision Score: 0.9440, Average Recall Score: 0.9392, F2 Score: 0.9402.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 100}
+Average Accuracy Score: 0.9567, Average Precision Score: 0.9437, Average Recall Score: 0.9393, F2 Score: 0.9402.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 150}
+Average Accuracy Score: 0.9563, Average Precision Score: 0.9431, Average Recall Score: 0.9390, F2 Score: 0.9398.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 200}
+Average Accuracy Score: 0.9562, Average Precision Score: 0.9424, Average Recall Score: 0.9394, F2 Score: 0.9400.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 50}
+Average Accuracy Score: 0.9566, Average Precision Score: 0.9433, Average Recall Score: 0.9395, F2 Score: 0.9403.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+Average Accuracy Score: 0.9565, Average Precision Score: 0.9433, Average Recall Score: 0.9392, F2 Score: 0.9400.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 150}
+Average Accuracy Score: 0.9565, Average Precision Score: 0.9432, Average Recall Score: 0.9393, F2 Score: 0.9401.
+Ada Boost Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Average Accuracy Score: 0.9563, Average Precision Score: 0.9428, Average Recall Score: 0.9391, F2 Score: 0.9398.
+Ada Boost Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 50}
+Average Accuracy Score: 0.9566, Average Precision Score: 0.9436, Average Recall Score: 0.9391, F2 Score: 0.9400.
+Ada Boost Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 100}
+Average Accuracy Score: 0.9559, Average Precision Score: 0.9421, Average Recall Score: 0.9390, F2 Score: 0.9396.
+Ada Boost Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 150}
+Average Accuracy Score: 0.9563, Average Precision Score: 0.9430, Average Recall Score: 0.9391, F2 Score: 0.9399.
+Ada Boost Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average Accuracy Score: 0.9563, Average Precision Score: 0.9427, Average Recall Score: 0.9392, F2 Score: 0.9399.
+Ada Boost Classifierbest parameters: {'learning_rate': 0.1, 'n_estimators': 50}
+Average Accuracy Score: 0.9566, Average Precision Score: 0.9433, Average Recall Score: 0.9395, F2 Score: 0.9403.
+
+
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 50}
+Average Accuracy Score: 0.7657, Average Precision Score: 0.9985, Average Recall Score: 0.3693, F2 Score: 0.4225.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 100}
+Average Accuracy Score: 0.7667, Average Precision Score: 0.9983, Average Recall Score: 0.3723, F2 Score: 0.4257.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 150}
+Average Accuracy Score: 0.7673, Average Precision Score: 0.9972, Average Recall Score: 0.3742, F2 Score: 0.4276.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.01, 'n_estimators': 200}
+Average Accuracy Score: 0.7814, Average Precision Score: 0.9923, Average Recall Score: 0.4144, F2 Score: 0.4690.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 50}
+Average Accuracy Score: 0.8516, Average Precision Score: 0.9808, Average Recall Score: 0.6121, F2 Score: 0.6619.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+Average Accuracy Score: 0.9100, Average Precision Score: 0.9917, Average Recall Score: 0.7641, F2 Score: 0.8009.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 150}
+Average Accuracy Score: 0.9428, Average Precision Score: 0.9941, Average Recall Score: 0.8511, F2 Score: 0.8763.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Average Accuracy Score: 0.9545, Average Precision Score: 0.9966, Average Recall Score: 0.8805, F2 Score: 0.9015.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 50}
+Average Accuracy Score: 0.9812, Average Precision Score: 0.9969, Average Recall Score: 0.9523, F2 Score: 0.9609.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 100}
+Average Accuracy Score: 0.9919, Average Precision Score: 0.9984, Average Recall Score: 0.9798, F2 Score: 0.9835.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 150}
+Average Accuracy Score: 0.9955, Average Precision Score: 0.9988, Average Recall Score: 0.9889, F2 Score: 0.9909.
+Gradient Boosting Classifier
+Parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average Accuracy Score: 0.9965, Average Precision Score: 0.9989, Average Recall Score: 0.9916, F2 Score: 0.9931.
+Gradient Boosting Classifierbest parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average Accuracy Score: 0.9965, Average Precision Score: 0.9989, Average Recall Score: 0.9916, F2 Score: 0.9931.
+
+

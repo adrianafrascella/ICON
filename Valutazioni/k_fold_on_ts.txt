@@ -1,0 +1,9 @@
+KNN: Average Accuracy Score: 0.9251737939751422, Average Precision Score: 0.9665608252153219, Average Recall Score: 0.8270934803278168, Average F2 Score: 0.8516683272837989
+
+Decision Tree: Average Accuracy Score: 0.9561407204550243, Average Precision Score: 0.9426392312263214, Average Recall Score: 0.9389694323929622, Average F2 Score: 0.9396963764616204
+
+Random Forest: Average Accuracy Score: 0.9499684010954287, Average Precision Score: 0.9866002767938836, Average Recall Score: 0.8771967739769313, Average F2 Score: 0.8970846895444671
+
+Ada Boost Classifier: Average Accuracy Score: 0.9563303138824522, Average Precision Score: 0.9433544556170359, Average Recall Score: 0.9387071193728966, Average F2 Score: 0.9396260678693176
+
+Gradient Boosting Classifier: Average Accuracy Score: 0.910048451653676, Average Precision Score: 0.9917312285841744, Average Recall Score: 0.7641464756627869, Average F2 Score: 0.8008768395127801

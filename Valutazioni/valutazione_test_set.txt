@@ -1,0 +1,72 @@
+Valutazione dei modelli sul test set:
+
+KNN
+Confusion Matrix:
+[[14531   262]
+ [ 1363  7579]]
+F2 Score: 0.8689720011924144
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.95     14793
+           1       0.97      0.85      0.90      8942
+
+    accuracy                           0.93     23735
+   macro avg       0.94      0.91      0.93     23735
+weighted avg       0.93      0.93      0.93     23735
+
+Decision Tree
+Confusion Matrix:
+[[13987   806]
+ [ 3100  5842]]
+F2 Score: 0.6886552244436062
+              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88     14793
+           1       0.88      0.65      0.75      8942
+
+    accuracy                           0.84     23735
+   macro avg       0.85      0.80      0.81     23735
+weighted avg       0.84      0.84      0.83     23735
+
+Random Forest
+Confusion Matrix:
+[[14649   144]
+ [ 1605  7337]]
+F2 Score: 0.8482277046868136
+              precision    recall  f1-score   support
+
+           0       0.90      0.99      0.94     14793
+           1       0.98      0.82      0.89      8942
+
+    accuracy                           0.93     23735
+   macro avg       0.94      0.91      0.92     23735
+weighted avg       0.93      0.93      0.92     23735
+
+Ada Boost Classifier
+Confusion Matrix:
+[[14320   473]
+ [  503  8439]]
+F2 Score: 0.9443822739480754
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97     14793
+           1       0.95      0.94      0.95      8942
+
+    accuracy                           0.96     23735
+   macro avg       0.96      0.96      0.96     23735
+weighted avg       0.96      0.96      0.96     23735
+
+Gradient Boosting Classifier
+Confusion Matrix:
+[[14788     5]
+ [   63  8879]]
+F2 Score: 0.9942443787512316
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     14793
+           1       1.00      0.99      1.00      8942
+
+    accuracy                           1.00     23735
+   macro avg       1.00      1.00      1.00     23735
+weighted avg       1.00      1.00      1.00     23735
+
