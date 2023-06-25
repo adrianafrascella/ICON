@@ -1,6 +1,6 @@
 # ICON
 
-## Progetto di predizione delle cancellazione in un Hotel
+## Progetto di predizione delle cancellazioni in un Hotel
 
 Questo progetto si propone di identificare il modello di classificazione migliore per prevedere le cancellazioni di prenotazioni in un hotel. L'obiettivo è aiutare la gestione delle risorse e ridurre le perdite economiche dovute alle cancellazioni.
 
